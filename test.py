@@ -16,7 +16,7 @@ def filter_data(data, threshold):
 
 def write_csv(data, output_path):
     if not data:
-        print("No data to write.")
+        print("No data")
         return
 
     with open(output_path, 'w', newline='') as f:
